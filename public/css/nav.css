@@ -1,0 +1,26 @@
+/*******************************Nav bar************************************/
+.nav ul {
+	
+	list-style-type: none;
+    width: 100%;
+}
+
+
+.nav a {
+	width: 12%;
+	padding-left: 5%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: black;
+	color: #FFFFFF;
+	padding-bottom: 6px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.nav a:hover, .nav a:active, .nav a:focus, .nav a.current_page {
+	background-color: greenyellow;
+	text-decoration: italic;
+    font-style: bold;
+    color: black;
+}
+

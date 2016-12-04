@@ -1,0 +1,10 @@
+{
+  "scripts":{
+    "doc":"php phpDocumentor.phar"
+  },
+  "autoload":{
+    "psr-4":{
+      "Itb\\":"src"
+    }
+  }
+}

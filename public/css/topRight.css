@@ -1,0 +1,45 @@
+/* Cart / Login block */
+#topright .cart_login {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 4%;
+	height: 1.5rem;
+	padding: 0.5rem;
+	background-color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border:2px solid black;
+	vertical-align: middle;
+	
+}
+
+#topright .cart_login a {
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Basket Icon */
+#topright #basket {
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+/* css validated icon */
+#topright  p.valid_icon {
+	display: inline;
+}
+
+#topright p.valid_icon a {
+	font-size: 0px;
+}
+
+#topright  p.valid_icon a img {
+	width: 3.2rem;
+	vertical-align: bottom;
+}

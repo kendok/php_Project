@@ -1,0 +1,161 @@
+/*******************************Effects All pages************************************/
+
+html,
+body {
+	height: 100%;
+}
+
+#container{
+    width: 80%;
+   margin: auto;
+}
+
+body {
+	/*margin: 0;
+	padding: 0;
+    background-image: url("../images/bg.jpg");
+    background-color: yellowgreen;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	color: #0A0500; */
+}
+
+
+
+div.transparent_background1 {
+	position: fixed;
+	left: 7%;
+	right: 7%;
+	bottom: 0;
+	top: 0;
+	z-index: -2; 
+	background-color: darkslategrey;
+	opacity: 0.8;
+	box-shadow: 1px 0 9px black;
+}
+
+#top img{
+	height: 150px;
+	width: 350px;
+  	margin-left: 37%;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+	
+}
+#top h1{
+	text-align: center;
+	 font-family: Verdana, Geneva, sans-serif; 
+}
+
+
+/*******************************Footer************************************/
+footer{
+
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+    bottom: 0;
+    background-color: slategrey;
+    border-top: 2px solid lawngreen;
+    width:75%;
+    padding-bottom: 15px;
+    border-top-right-radius: 10em; 
+  /*  text-align: center; */
+    border-top-left-radius: 10em;
+}
+
+.mid{
+      text-align: center;
+      color: black;
+}
+#contactleft{
+   color:greenyellow;
+    float:left;
+    width: 30%;
+    padding-left: 55px;
+    
+   
+}
+.right{
+     color:greenyellow;
+    float:right;
+    width: 30%
+}
+footer a{    
+color: greenyellow;
+}
+footer a :hover{
+    color: aqua;
+}
+footer .footright img {
+	color: orangered;
+	width: 4%;
+	float: right;
+	margin-left:auto;
+	margin-right: 3em;
+	border-radius: 2em;
+    border-top: 15px; /*  cant get it to lower in the footer ?? */
+}
+footer .footright img:hover {
+	border: 2px solid orangered;
+}
+
+/*******************************Contact Us************************************/
+
+img.tiny_img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	border: 2px solid black;
+    border-radius: .5em;
+}
+
+
+
+/*******************************Site Map************************************/
+
+.wrapleft{
+   float: left;
+   width: 100%;
+   
+}
+.siteMapLeft{
+   margin-right: 567px;
+  	  }
+.siteMapRight{
+   float: right;
+   width: 400px;
+   margin-left: -557px;
+   border: 2px solid black;
+   margin-bottom: 200px;
+}
+div.hideable {
+	display: none;
+	
+}
+
+div.hideable ol {
+	list-style-type: lower-roman;
+	
+}
+.smallImg{
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+    border-radius: .5em;
+	margin-left: 135px;
+}
+
+/***************************** Crud*******************************/
+
+.crud table,.crud  tr,.crud  td,.crud  th {
+	padding: 0.2rem;
+	border: solid black 0.1rem;
+	background-color: #dddddd;
+}
+#merch #productButton{
+
+
+	float: right;
+}

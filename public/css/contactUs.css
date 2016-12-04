@@ -1,0 +1,20 @@
+#twocol1 {
+	float: left;
+	width: 650px;
+	margin: 0 20px;
+	outline: 2px dashed #0053ae;
+	margin-bottom: 200px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	
+	 }
+#twocol2 {
+	float: right;
+	width: 250px;
+	margin: 0 20px 0 0;
+	outline: 2px dashed #dd0009;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;	
+}

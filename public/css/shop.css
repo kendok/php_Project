@@ -1,0 +1,54 @@
+#shop
+{
+    margin: 10px;
+    border: 1px solid grey;
+    width: 20%;
+    float: right;
+
+}
+#merch table
+{
+    margin-bottom: 15px;
+    width: 35%;
+    margin-left:  10px;
+    display:inline-block;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+   
+    
+}
+
+#merch table
+{
+    border:3px solid black;
+    border-radius: 5px;
+
+}
+
+#shop
+{
+    margin: 10px;
+    border: 1px solid grey;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+    width: 20%;
+    float: right;
+   
+}
+#shop td
+{
+    border: 2px solid grey; 
+}
+.image
+{
+    display: inline-block;
+    padding: 10px;
+    width: 65px;
+    height: 40px;
+    
+}
+.items
+{
+    width: 150px;
+    height: 150px;
+    border: black 2px solid;
+    border-radius: 15px;
+}
